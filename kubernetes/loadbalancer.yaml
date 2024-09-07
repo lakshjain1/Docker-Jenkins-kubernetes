@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: javaweb
   labels:
-    app: javawebapp
+    app: javawebapp #very important for service
 spec:
   containers:
   - name: javawebappcontainer
@@ -16,10 +16,9 @@ kind: Service
 metadata:
   name: javawebsrv
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: javawebapp #POD label
   ports:
   - port: 80
     targetPort: 8080
-    nodePort: 30645
