@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: java-web-app-blue-deploy
+  name: javawebappbluedeploy
 spec:
   replicas: 2
   strategy:
