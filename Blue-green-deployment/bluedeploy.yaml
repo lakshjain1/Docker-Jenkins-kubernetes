@@ -20,7 +20,7 @@ spec:
         color: blue
   spec:
     containers:
-    - name: java-web-app-container
+    - name: javawebappcontainer
       image: ashokit/javawebapp
       imagePullPolicy: Always
       ports:
