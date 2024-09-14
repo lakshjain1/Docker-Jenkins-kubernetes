@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: java-web-app-container
-        image: lakshjain1/lakshnginx:v1
+        image: ashokit/javawebapp
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
