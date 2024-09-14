@@ -18,10 +18,10 @@ spec:
         app: java-web-app
         version: v1
         color: blue
-  spec:
-    containers:
-    - name: javawebappcontainer
-      image: ashokit/javawebapp
-      imagePullPolicy: Always
-      ports:
-      - containerPort: 8080
+    spec:
+      containers:
+      - name: java-web-app-container
+        image: ashokit/javawebapp
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
