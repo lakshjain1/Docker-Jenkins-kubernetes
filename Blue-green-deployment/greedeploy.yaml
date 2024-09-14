@@ -16,8 +16,8 @@ spec:
       name: java-web
       labels:
         app: java-web-app
-        version: v1
-        color: blue
+        version: v2
+        color: green
     spec:
       containers:
       - name: java-web-app-container
